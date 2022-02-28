@@ -116,17 +116,17 @@ int main()
     int             a = 121241241;
     char            s[] = "_asrfassdgsaga_";
     char            v = 'a';
-    char            *glcn;
+    char            *msb;
     static char     *c;
     unsigned int    xx = 463667312;
     unsigned int    xc = 126467124;
     unsigned int    hhh = 4294967295;
-    glcn = ft_strdup("asfghsgusjghsdg");
+    msb = ft_strdup("asfghsgusjghsdg");
     as = ft_printf("%d, %s, %c, %s, %u, %x, %X,%%%%%%, %p"
- , a, s, v, c, hhh, xc, xx, glcn);
+ , a, s, v, c, hhh, xc, xx, msb);
     printf("\n\n%d\n\n",as);
     as = printf("%d, %s, %c, %s, %u, %x, %X,%%%%%%, %p"
- , a, s, v, c, hhh, xc, xx, glcn);
+ , a, s, v, c, hhh, xc, xx, msb);
     printf("\n\n%d\n\n",as);
  printf("abc"
 }*/
